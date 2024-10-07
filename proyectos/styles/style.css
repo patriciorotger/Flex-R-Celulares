@@ -1,0 +1,581 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  border-radius: 0;
+  display: block; /* Asegura que se comporte como un bloque */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.titulo {
+  color: deeppink;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 4px #aaa; /* Sombreado del texto */
+}
+
+.nav1 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px; /* Mantengo el borde redondeado */
+  background: linear-gradient(to right, deeppink, #ff5cef); /* Degradado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px 0; /* Aumenta padding superior e inferior */
+}
+
+.nav1 ul {
+  list-style-type: none; /* Quitar viñetas */
+  display: flex; /* Mostrar elementos en fila */
+  justify-content: center; /* Centrar los elementos */
+  padding: 0; /* Eliminar padding */
+  margin: 0; /* Eliminar margen */
+}
+
+.nav1 li {
+  margin: 0 15px; /* Espaciado entre elementos */
+}
+
+.nav1 a {
+  text-decoration: none; /* Quitar subrayado */
+  color: white; /* Color del texto */
+  transition: color 0.3s; /* Transición suave para hover */
+  padding: 10px; /* Espacio alrededor del texto */
+  border-radius: 5px; /* Mantengo bordes redondeados */
+}
+
+.nav1 a:hover {
+  color: #fff3f3; /* Color al pasar el mouse */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+  background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+
+
+/*index*/
+
+
+
+body {
+  min-height: 100vh;
+  display: block;
+  background-color: #f0f0f0;
+}
+
+h2 {
+  color: deeppink;
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 5px #888; /* Sombra del texto */
+}
+
+h4 {
+  font-family: cursive;
+}
+
+.section1 h3 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+.section1 img {
+  margin: 10px;
+  width: 1500px;
+}
+
+.section1 a {
+  display: block; /* Hacer que el enlace ocupe todo el ancho */
+  text-align: center; /* Centrar texto */
+  margin: 10px auto; /* Margen automático para centrar */
+  padding: 10px; /* Espaciado interno */
+  background-color: deeppink; /* Fondo */
+  color: white; /* Color del texto */
+  border-radius: 5px; /* Bordes redondeados */
+  width: 150px; /* Ancho fijo */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.section1 a:hover {
+  background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+.section2 h3 {
+  color: deeppink;
+  margin-top: 55px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section2 button:hover {
+  background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+.div1, .div2, .div3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+width: 550px;
+height: 650px;
+border-radius: 10px; /* Bordes redondeados */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* sombreado */
+}
+
+.article1, .article2, .article3, .article4, .article5, .article6 {
+  margin-top: 50px;
+  font-size: 19px;
+}
+
+article h4 {
+  color: deeppink;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+article {
+  border: 1px solid #ddd; /* Borde ligero */
+  border-radius: 8px; /* Bordes redondeados */
+  padding: 15px; /* Espaciado interno */
+  transition: box-shadow 0.3s; /* Transición suave */
+}
+
+article:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+.header1 {
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 35px;
+  margin-top: 45px;
+}
+
+footer {
+  background: linear-gradient(to right, deeppink, #ff5cef); /* Degradado */
+  color:white;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sectionacc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sectionacc > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+
+/*Accesorios*/
+
+
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sectionacc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.sectionacc > div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilo de los artículos */
+.sectionacc article {
+  flex: 1 1 calc(50% - 20px); /* Ajusta para dos columnas */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.sectionacc img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: deeppink;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+h4 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:deeppink;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: deeppink;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+  background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+article:hover{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+
+
+/* Bazar */
+
+
+
+.bazar-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.bazar-section article {
+  flex: 1 1 calc(50% - 20px); /* Ajusta para dos columnas */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.bazar-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bazar-section h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.bazar-section p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.bazar-section h4 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.bazar-section button {
+  padding: 10px 20px;
+  background-color: deeppink;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bazar-section button:hover {
+  background-color: deeppink;
+  background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+article:hover{
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+
+
+/* Celulares */
+
+
+
+.section-celulares {
+display: grid;
+grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+gap: 20px; /* Espacio entre los artículos */
+}
+
+.section-celulares article {
+border: 1px solid #ddd; /* Borde alrededor de cada artículo */
+padding: 15px;
+border-radius: 8px; /* Bordes redondeados */
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.section-celulares img {
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.section-celulares h3 {
+font-size: 1.1rem;
+margin: 10px 0;
+}
+
+.section-celulares header {
+margin-bottom: 10px;
+}
+
+.section-celulares h4 {
+font-size: 1rem;
+color: #333;
+margin: 5px 0;
+}
+
+/* Estilos para listas */
+.section-celulares ul {
+list-style-type: disc; /* Tipo de viñeta */
+padding-left: 20px; /* Espacio a la izquierda de la lista */
+margin: 10px 0; /* Margen entre listas */
+text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.section-celulares ul li {
+margin-bottom: 5px; /* Espacio entre los elementos de la lista */
+font-size: 0.9rem; /* Tamaño de fuente */
+color: #555; /* Color de texto */
+}
+
+/* Estilos para los botones */
+.section-celulares button {
+padding: 8px 16px;
+background-color:deeppink; /* Color del botón */
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.section-celulares button:hover {
+background-color: deeppink; /* Color del botón al pasar el mouse */
+background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+article:hover{
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+
+
+/* Contacto */
+
+
+
+.contact-form {
+max-width: 600px; /* Limita el ancho del formulario */
+margin: 0 auto; /* Centra el formulario */
+padding: 20px; /* Agrega un padding para un mejor espaciado */
+border-radius: 8px; /* Bordes redondeados */
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+background-color: #fff; /* Fondo blanco */
+}
+
+.contact-form h2 {
+color: deeppink; /* Color del título */
+text-align: center; /* Centra el título */
+margin-bottom: 120px; /* Espacio debajo del título */
+}
+
+.contact-form label {
+display: block; /* Cada etiqueta ocupa toda la línea */
+margin-bottom: 5px; /* Espacio debajo de cada etiqueta */
+font-weight: bold; /* Texto en negrita para las etiquetas */
+color:deeppink; /* Color del texto de las etiquetas */
+border-radius: 100px;
+}
+
+.contact-form input,
+.contact-form textarea {
+width: 100%; /* Ocupa todo el ancho del formulario */
+padding: 10px; /* Espaciado interno */
+margin-bottom: 15px; /* Espacio entre los campos */
+border: 1px solid #ccc; /* Borde ligero */
+border-radius: 4px; /* Bordes redondeados */
+}
+
+.contact-form button {
+background-color: deeppink; /* Color del botón */
+color: white; /* Color del texto del botón */
+padding: 10px; /* Espaciado interno */
+border: none; /* Sin borde */
+border-radius: 5px; /* Bordes redondeados */
+cursor: pointer; /* Cambia el cursor al pasar el mouse */
+transition: background-color 0.3s; /* Transición suave */
+}
+
+.contact-form button:hover {
+background-color: #ff5cef; /* Color al pasar el mouse */
+}
+
+
+
+/*Servicio Técnico*/
+
+
+
+.texto {
+font-size: 1rem; /* Ajusta el tamaño de la fuente */
+line-height: 1.5; /* Altura de línea para mayor legibilidad */
+color: #333; /* Color del texto */
+margin: 15px 0; /* Margen superior e inferior */
+text-align: center;
+}
+
+.imagen-pequena {
+width: 200px; /* Ajusta el tamaño de la imagen */
+height: auto; /* Mantiene la proporción */
+display: block; /* Para centrar la imagen */
+margin: 20px auto; /* Centra la imagen horizontalmente */
+}
+
+.h3-servicio {
+text-align: center;
+}
+
+
+
+/* Estilos Responsivos */
+
+
+
+@media (max-width: 768px) {
+  /* Hacer que las imágenes de la sección 1 sean más pequeñas en pantallas móviles */
+  .section1 img {
+      width: 100%; /* Ocupa el 100% del ancho de la pantalla */
+  }
+
+  /* Ajustar el tamaño del título en pantallas más pequeñas */
+  .titulo {
+      font-size: 35px;
+  }
+
+  .logo {
+    width: 50%; /* Aumentar el tamaño del logo en pantallas pequeñas */
+    max-width: 80px; /* Ajustar el tamaño máximo */
+  }
+
+  .nav1 ul {
+    flex-direction: column; /* Cambiar a una columna */
+    align-items: center; /* Centrar los elementos */
+    width: 100%; /* Ocupar todo el ancho */
+  }
+
+  .nav1 li {
+    margin: 10px 0; /* Ajustar espaciado entre elementos */
+  }
+  
+  /* Ajustar los artículos a una columna en pantallas pequeñas */
+  .section-celulares {
+      grid-template-columns: 1fr; /* Cambiar a una columna */
+  }
+
+  .sectionacc > div {
+      flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Ajustar imágenes de productos en pantallas medianas */
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+      width: 300px; /* Cambiar a un tamaño más pequeño */
+      height: auto; /* Mantener la proporción */
+  }
+
+  /* Reducir el tamaño de los títulos en pantallas medianas */
+  h2, h3 {
+      font-size: 30px;
+  }
+
+  /* Cambiar el layout de flexbox a columna para mayor adaptabilidad */
+  .div1, .div2, .div3 {
+      flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Imágenes más pequeñas en pantallas muy pequeñas */
+  .img1, .img2, .img3, .img4, .img5, .img6 {
+      width: 100%; /* Ocupa el 100% del contenedor */
+      height: auto; /* Mantener la proporción */
+  }
+
+  /* Títulos más pequeños */
+  h2, h3 {
+      font-size: 25px;
+  }
+
+  /* Formularios ocupan el ancho completo */
+  form {
+      padding: 15px;
+  }
+  
+  .sectionacc article, .bazar-section article {
+      flex: 1 1 100%; /* Ajustar para ocupar toda la pantalla */
+  }
+}
