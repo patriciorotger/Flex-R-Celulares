@@ -72,11 +72,11 @@
   /* Accesorios */
   .sectionacc article {
     flex: 1 1 calc(50% - 20px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     border-radius: 8px;
     background-color: #f9f9f9;
     text-align: center;
+    transition: box-shadow 0.3s;
   }
   
   .sectionacc img {
@@ -127,11 +127,15 @@
   
   .bazar-section article {
     flex: 1 1 calc(50% - 20px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     padding: 10px;
     border-radius: 8px;
     background-color: #f9f9f9;
     text-align: center;
+    transition: box-shadow 0.3s;
+    
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
   }
   
   .bazar-section img {
@@ -185,6 +189,10 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+
+    &:hover {
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
   }
   
   .section-celulares img {
